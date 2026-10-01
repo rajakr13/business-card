@@ -1,0 +1,30 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin: 40px auto;
+}
+
+.avatar{
+    width: 150px;
+}
+
+.card{
+    color: #2b2839;
+    background: #ddebf8;
+    text-align: center;
+    width: 400px;
+    margin:0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: 6px solid #d8cefe;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #d8cefe;
+    transform: scale(1.05);
+}
+
+.border-blue {
+     border: 3px dotted blue;
+}
